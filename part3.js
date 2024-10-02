@@ -8,7 +8,6 @@ const week1 = totalPlants * 2;
 const week2 = week1 * 2;
 const week3 = week2 * 2;
 
-
 try {
   if (totalPlants > area) {
     throw new Error("There is not enough space: ");

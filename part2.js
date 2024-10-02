@@ -6,7 +6,6 @@ const radius = 5;
 const minimumSpace = 0.8;
 const PI = 3.1415;
 const newSpace = minimumSpace * 100;
-const predictedSpace = newSpace * 2 ** 10;
+const predictedSpace = newSpace * 2**10; 
 const result = Math.sqrt(predictedSpace / PI);
 console.log(result);
-
